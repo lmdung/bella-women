@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+/*tap-bar*/
+.top-bar {
+    box-sizing:border-box;
+    padding: 1px 0;
+    font-size: 13px;
+    background-color: #232323;
+  }
+.top-bar .list-inline {
+    list-style: none;
+  }
+.top-bar .list-inline li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+.top-bar .list-inline li a i {
+    padding-right: 5px;
+  }
+.list-inline > li {
+    display: inline-block;
+    padding-right: 20px;
+  }
+.top-bar .list-inline li a:hover {
+    text-decoration:underline;
+  }
+.top-bar .list-inline li a span.colored {
+    color: #e48f4c;
+  }
+.fa-envelope:hover {
+    color: #e48f4c;
+  }
