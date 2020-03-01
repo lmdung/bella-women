@@ -9,6 +9,10 @@ body {
     padding: 1px 0;
     font-size: 13px;
     background-color: #232323;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 .top-bar .list-inline {
     list-style: none;
@@ -28,8 +32,23 @@ body {
     text-decoration:underline;
   }
 .top-bar .list-inline li a span.colored {
-    color: #e48f4c;
+    color: #5687bf;
   }
 .fa-envelope:hover {
-    color: #e48f4c;
+    color: #5687bf;
   }
+.top-bar .top-bar-right > ul > li + li:before {
+    content: "|";
+    color: white;
+    padding-right: 10px;
+  }
+.top-bar-right .list-inline > li {
+    display: inline-block;
+    padding-right: 10px;
+  }
+.top-bar-right .list-inline .currency:hover  .fa-angle-down {
+  color: #5687bf;
+}
+.top-bar-right .list-inline .flags:hover  .fa-angle-down {
+  color: #5687bf;
+}
